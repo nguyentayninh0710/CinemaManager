@@ -81,6 +81,7 @@ In your `Main` class (or in a `main` method), demonstrate the functionality of y
 
 ## 🧠 Example Output
 
+<pre>
 Current Seating:
 O O O O O O O O
 O X(Anna) O O O O O O
@@ -91,10 +92,8 @@ O O O O O O O O
 Seat Details [Row 2, Column 2]:
 Customer: Anna
 Items purchased:
-
-Popcorn
-
-Soda
+- Popcorn
+- Soda
 
 Total reserved seats: 2
 Is the cinema full? false
@@ -107,6 +106,8 @@ O X(Anna) O O O O O O
 O O O O O O O O
 O O O O O O O O
 O O O O O O O O
+</pre>
+
 
 
 ---
