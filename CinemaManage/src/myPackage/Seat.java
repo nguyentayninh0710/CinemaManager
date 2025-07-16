@@ -23,7 +23,7 @@ public class Seat {
 		this.items.clear(); 
 	}
 	
-	public boolean isReserved() {
+	public boolean isReserved() {   // check if the seat is taken or not
 		return this.reserved;
 	}
 	
