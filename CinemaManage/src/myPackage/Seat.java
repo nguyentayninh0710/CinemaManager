@@ -6,6 +6,7 @@ public class Seat {
 	private boolean reserved;
 	private String customerName;
 	private ArrayList<String> items;
+	
 	public Seat() {
 		this.reserved = false;
 		this.customerName = "";
@@ -31,9 +32,10 @@ public class Seat {
 		this.items.add(item);
 	}
 	
+	@Override
 	public String toString() {
-		if (this.reserved = false) {
-			return "X" + customerName;
+		if (this.reserved == true) {
+			return "X(" + customerName + ")";
 		} else {
 			return "0";
 		}
